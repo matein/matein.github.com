@@ -1,0 +1,143 @@
+/* 
+
+Theme Name: Mathew C Ein
+
+Just MILK Design
+http://justmilkdesign.com/
+@justmilkdesign
+
+ */
+
+html, body{
+	padding:0;
+	margin:0;
+	min-height:100% !important;
+}
+
+body{
+	background:url('background_page.jpg') fixed;
+	color:#cac0b4;
+	font-family:Verdana;
+	font-size:13px;
+	line-height:1.5;
+}
+
+h1{display:none;}
+h2{font-size:48px;}
+strong, h2{font-family:Georgia;color:#769454;font-style:italic;}
+
+a:link{
+	color:#769454;
+	text-decoration:none;
+}
+a:visited{
+	color:#769454;
+	text-decoration:none;
+}
+
+.w160{width:160px;}
+.w240{width:240px;}
+.w460{width:460px;}
+
+.left{float:left;}
+.right{float:right;}
+.clr{clear:both;}
+
+.root{width:960px;margin:0 auto;padding:0px 0px 160px;}
+
+.root .head{position:fixed;bottom:0;
+	background:url('background_navigation.png') no-repeat;
+	height:158px;
+	z-index:2000;
+	}
+
+.root .head .wrapper{position:relative;}
+
+.root .head .nav{
+	width:780px;
+	height:80px;position:absolute;bottom:0;margin-left:161px;
+	border-left:0;border-bottom:0;z-index:99;}
+.root .head .nav ul{list-style-type:none;}
+.root .head .nav li{float:left;}
+.root .head .nav a{height:80px;width:148px;text-align:center;display:block;}
+.root .head .nav .reel{}
+.root .head .nav .clips{}
+.root .head .nav .lessons{}
+.root .head .nav .contact{}
+
+.root .logo{position:relative;float:left;width:160px;height:160px;z-index:99;text-align:center;}
+.root .logo img{max-height:140px;max-width:140px;}
+
+
+.root .main{}
+
+.root .main .pane{padding-top:100px;min-height:400px;}
+
+.pane.contact h2{}
+.pane.lessons h2{}
+.pane.reels h2{}
+.pane.clips h2{}
+
+
+.root .home{}
+.root .home .wrap{min-height:723px;}
+.root .home .image_text{margin:100px 0px 0px 20px;}
+.root .home .image_mat{position:absolute;right:0;}
+
+.root .clips .wrap{
+	margin-left:170px;
+}
+
+.root .clips .vimeo{
+	height:142px;
+}
+.root .clips .caption{
+	height:30px;
+	overflow:hidden;
+}
+.root .clips .clip_grid{
+	max-width:253px;
+	border:1px solid #666;
+	
+}
+.root .clips .clip_grid img{
+	cursor:pointer;
+	width:253px;
+	height:142px;
+}
+
+.root .lessons .wrap{
+	margin-top:200px;
+	margin-left:480px;
+}
+
+.root .contact .wrap{
+	margin-left:250px;
+}
+
+.root .contact .left img{
+	margin:10px 0px 10px;
+}
+
+.root .clients .wrap{
+	margin-left:250px;
+}
+.root .clients .client_image{width:150px;display:inline-block;vertical-align:middle;margin-bottom:1px;}
+
+.root .reel{}
+.root .reel .nav{display:none;margin:0 auto;width:106px;text-align:center;}
+.root .reel .nav > div{float:left;cursor:pointer;width:50px;border:1px solid #666;margin-right:1px;}
+.root .reel .nav > div:hover{opacity:0.5;}
+.root .reel .wrap{width:760px;margin:0 auto;overflow:hidden;position:relative;}
+
+
+.root .foot{}
+
+.vimeo{width:100%;height:80%;}
+
+.wrapper{width:960px;margin:0 auto;overflow:hidden;}
+
+/*.carousel{overflow:hidden;position:relative;width:9999px;height:inherit;}*/
+.carousel .slide{float:left;width:770px;}
+
+.caption{background:#333;color:white;padding:10px 20px;}

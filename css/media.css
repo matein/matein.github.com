@@ -1,0 +1,61 @@
+@media all and (max-width: 480px) {
+  
+	.root, .wrapper, .pane{
+		width:320px;
+		font-size:11px;
+	}
+	
+	.left{
+		float:none;
+	}
+
+	.head{
+		display:none;
+	}
+	
+	.root .home.pane{
+		padding-top:20px;
+	}
+	
+	.home .image_mat{
+		position:relative;
+		top:50px;
+		opacity:0.5;
+	}
+	
+	.home .image_text{
+		position:relative;
+		left:-20px
+		top:100px;
+	}
+	
+	.root .clips .wrap{
+		margin-left:-150px;
+	}
+	
+	.root .clips .clip_grid{
+		width:146px;
+		float:left;
+	}
+	
+	.root .clients .client_image{
+		float:left;
+		max-width:150px;
+	}
+	
+	.root .lessons .wrap,
+	.root .clips .wrap, 
+	.root .clients .wrap,
+	.root .contact .wrap{
+		width:300px;
+		margin:0 auto;
+	}
+	
+	
+	.reel .w160{
+		clear:both;
+		float:none;
+	}
+	
+	.reel .slide{width:480px;height:320px;float:none;}
+}
